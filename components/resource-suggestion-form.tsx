@@ -40,12 +40,14 @@ export const ResourceSuggestionForm = () => {
   };
 
   return (
-    <div className="p-4 rounded-xl bg-[hsla(0,0%,100%,.2)]">
+    <div className="p-4 rounded-xl bg-[hsla(0,0%,100%,.2)] shadow text-base">
       <Form {...form}>
         <form onSubmit={form.handleSubmit(handleResourceSubmit)}>
-          <h3 className="text-xl mb-4 text-white">Suggest a resource</h3>
+          {/* <h3 className="text-xl mb-4 text-green-300 font-medium">
+            Suggest a resource
+          </h3> */}
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-2 gap-6">
             <FormField
               control={form.control}
               name="title"
@@ -59,7 +61,7 @@ export const ResourceSuggestionForm = () => {
                       className="text-lg"
                     />
                   </FormControl>
-                  <FormMessage />
+                  <FormMessage className="text-red-200 text-base" />
                 </FormItem>
               )}
             />
@@ -78,13 +80,13 @@ export const ResourceSuggestionForm = () => {
                         className="text-lg"
                       />
                     </FormControl>
-                    <FormMessage />
+                    <FormMessage className="text-red-200 text-base" />
                   </FormItem>
                 );
               }}
             />
           </div>
-          <Button type="submit" className="mt-4">
+          <Button type="submit" className="mt-4 text-base">
             Submit
           </Button>
         </form>

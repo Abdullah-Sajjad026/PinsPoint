@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="bg-muted mt-2 absolute bottom-0 right-0 left-0">
-      <div className="container py-6 ">
+    <footer className="bg-muted">
+      <div className="container py-4 ">
         <p className="text-md">
           Presented by{" "}
           <Link

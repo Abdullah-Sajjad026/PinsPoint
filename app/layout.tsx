@@ -26,9 +26,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={appFont.className}>
         <Providers>
-          <Header />
-          <main className="main-content">{children}</main>
-          <Footer />
+          <div className="flex flex-col justify-between min-h-screen h-full">
+            <Header />
+            <main className="main-content flex-grow h-full">{children}</main>
+            <Footer />
+          </div>
         </Providers>
       </body>
 
