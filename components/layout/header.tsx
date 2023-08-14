@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useAuthContext } from "@/contexts/auth-context";
+import { usePathname, } from "next/navigation";
 
+import { useAuthContext } from "@/contexts/auth-context";
 import { buttonVariants } from "../ui/button";
-import { usePathname, useRouter } from "next/navigation";
 
 export const Header = () => {
   const { user } = useAuthContext();

@@ -16,9 +16,7 @@ export const Hero = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
   //
   return (
-    <section
-      className={`py-12 h-3/6 flex items-center ${homeStyles["home-hero"]}`}
-    >
+    <section className={`py-12 flex items-center ${homeStyles["home-hero"]}`}>
       <div className="container">
         <div className="text-white">
           <h1 className="text-5xl sm:text-7xl font-bold ">PinsPoint</h1>
