@@ -21,7 +21,7 @@ export default function Home() {
       />
 
       <section className="app-pins py-8">
-        <div className="container grid grid-cols-3 gap-6">
+        <div className="container grid sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {appPins[selectedCategory].map((pin) => (
             <PinCard key={pin.url} {...pin} />
           ))}

@@ -5,6 +5,9 @@ import {
   BrainCircuit,
   FileSearch,
   MonitorPlay,
+  PencilRuler,
+  Terminal,
+  Wand2,
   Workflow,
   Youtube,
 } from "lucide-react";
@@ -48,16 +51,16 @@ export const appPinsCategories: PinsCategory[] = [
   {
     slug: "tools",
     name: "Tools",
-    icon: Workflow,
+    icon: Terminal,
   },
   {
     slug: "css-helpers",
     name: "CSS Helpers",
-    icon: Workflow,
+    icon: Wand2,
   },
   {
     slug: "design-inspirations",
-    name: "Blogs/Communities",
-    icon: Workflow,
+    name: "Design Inspirations",
+    icon: PencilRuler,
   },
 ];

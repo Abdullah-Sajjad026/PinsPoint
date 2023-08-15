@@ -1404,19 +1404,19 @@ export const appPins: { [key: string]: AppPin[] } = {
     {
       iconPath: "atom.png",
       name: "Atom",
-      description: `Yet Another Code Editor. <br /><br /><br />`,
+      description: `Yet Another Code Editor.`,
       url: "https://atom.io/",
     },
     {
       iconPath: "sublime.png",
       name: "Sublime Text",
-      description: `Yet Another Code Editor. <br /><br /><br />`,
+      description: `Yet Another Code Editor.`,
       url: "https://sublimetext.com",
     },
     {
       iconPath: "brackets.jpg",
       name: "Brackets",
-      description: `Yet Another Code Editor. <br /><br /><br />`,
+      description: `Yet Another Code Editor.`,
       url: "https://brackets.io/",
     },
     {
